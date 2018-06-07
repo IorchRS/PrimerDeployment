@@ -14,13 +14,6 @@ height: 15rem;
     font-family: 'Playfair Display', serif;
 }
 
-
-
-
-
-
-
-
 //**seccion Equipo de Trabajo**//
 .espacioTituloPS{
     margin: 6rem 1rem 6rem 1rem;
@@ -31,6 +24,65 @@ height: 15rem;
     font-family: 'Playfair Display', serif;
 
 }
+//**medias de titulos grandes**//
+@media(min-width : 901px) and (max-width : 1300px) {
+    .tituloEquipequño1 {
+        font-size: 1.5rem;
+    }
+}
+@media(min-width : 701px) and (max-width : 900px) {
+    .tituloEquipequño2 {
+        text-justify: auto;
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 479px) {
+    .tituloEquipequño3{
+        font-size: .8rem;
+        color: rgb(12, 122, 224);
+        text-justify: auto;
+    }
+}
+@media (min-width : 480px) and (max-width: 700px) {
+    .tituloEquipequño4{
+        font-size: 1rem;
+        color: rgb(12, 122, 224);
+        text-justify: auto;
+    }
+}
+/**
+@media (min-width : 701px) and (max-width : 1000px) {
+    .tituloEquipequño3 {
+        font-size: .9rem;
+    }
+
+}
+@media (min-width : 701px) and (max-width : 1000px) {
+    .tituloEquipequño4 {
+        font-size: .9rem;
+    }
+
+}
+@media (min-width : 480px) and (max-width : 700px) {
+    .tituloEquipequño5 {
+        font-size: .8rem;
+    }
+}
+
+
+@media (min-width : 480px) and (max-width : 700px) {
+    .tituloEquipequño6 {
+        font-size: .7rem;
+    }
+
+}
+
+
+@media (max-width: 479px) {
+    .tituloEquipequño7{
+        font-size: .6rem;
+    }
+}**/
 .tituloEquipo{
     color: rgb(70, 182, 247);
     font-size: 3rem;
@@ -110,11 +162,27 @@ height: 30rem;
 //**Termina integrantes Equipo de Trabajo**//
 
 //**parte acerca de nosotros**//
+
+
 .tituloacerca{
     color: rgb(70, 182, 247);
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
 }
+
+@media(min-width : 901px) and (max-width : 1300px) {
+    .tituloacerca2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .tituloacerca1{
+        font-size: 1.2rem;
+       
+    }
+}
+
 .margenAcecaNos{
     margin: 6rem 1rem 6rem 1rem; 
 }
@@ -123,4 +191,27 @@ height: 30rem;
     color: rgb(70, 182, 247);
     font-size: 1.3rem;
     font-family: 'Playfair Display', serif;  
+}
+//**medias de acerca de nosotros**//
+@media(min-width : 901px) and (max-width : 1300px) {
+    .comienzo1 {
+        font-size: 1.2rem;
+    }
+}
+@media(min-width : 701px) and (max-width : 900px) {
+    .comienzo2 {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 479px) {
+    .comienzo3{
+        font-size: .9rem;
+        color: rgb(12, 122, 224);
+    }
+}
+@media (min-width : 480px) and (max-width: 700px) {
+    .comienzo4{
+        font-size: .8rem;
+        color: rgb(12, 122, 224);
+    }
 }
